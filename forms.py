@@ -21,3 +21,6 @@ class FeedbackForm(FlaskForm):
     """Add feedback form."""
     title = StringField("Title", validators=[InputRequired()])
     content = StringField("Content", validators=[InputRequired()])
+
+class DeleteForm(FlaskForm):
+    """Soething happens"""
